@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domashka</title>
+    <link rel="stylesheet" href="style01dz.css">
+</head>
+<body>
+    <h1>Анкета відвідувача ресторану</h1>
+    <form action="#">
+    <div>
+        <fieldset>
+            <legend>Контакти</legend>
+             <div><label for="name">Ім'я<input type="text" id="name"></label></div> 
+            <div><label for="tel">Телефон <input type="tel" id="tel"></label></div>
+            <div><label for="email">Email <input type="email" id="email"></label></div>
+            <div></div><label for="date">Дата відвідування <input type="date" id="date"></label></div>
+         </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Персональна інформація</legend>
+            <div><label for="age">Вік <input type="number" min="18" max="100" step="1" id="age"></label></div>
+            <div><label for="favour">Улюблена кухня 
+               <select name="cuhna" id="cuh">
+                   <option value="1">Італійська</option>
+                   <option value="2">Французька</option>
+                   <option value="3">Мексиканська</option>
+                   <option value="4">Середземноморська</option>
+                   <option value="5">Українська</option>
+
+               </select>
+               <div><label for="message">Які страви ви хотіли би бачити в нашому меню? <textarea ></textarea></label></div>
+
+            </label>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Оцінка ресторану</legend>
+            <div><label for="q"> Як ви дізналися про наш ресторан?</label></div>
+            <div><input type="radio" name="answ" value="1">Поруч з будинком/роюотою</div>
+            <div><input type="radio" name="answ" value="2">Реклама</div>
+            <div><input type="radio" name="answ" value="3">Порадили знайомі</div>
+            <div><input type="radio" name="answ" value="4">Пошук в мережі Інтернет</div>
+            <div><input type="radio" name="answ" value="5">Інше</div>
+            <div><label for="q2"> Чи будете ви рекомендувати наш ресторан знайомим?</label></div>
+            <div><input type="radio" name="answ2" value="1"> Так</div>
+            <div><input type="radio" name="answ2" value="2"> Ні</div>
+        </fieldset>
+    </div>
+    <button>Відправити</button>
+    </form>
+</body>
+</html>

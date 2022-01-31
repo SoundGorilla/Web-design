@@ -1,0 +1,46 @@
+fieldset{
+    border:solid 2px rgb(43, 43, 138);
+    margin-right: 670px;
+    background-color: rgb(102, 204, 230);
+    margin-top: 0.5cm;
+    padding: 0.75cm 0.75cm;
+    }    
+legend{
+    color: blue;
+} 
+#name{
+    margin-left: 305px;
+    margin-right: 0px;
+}
+#tel{
+    margin-left: 268px;
+}
+#email{
+    margin-left: 288px;
+}
+#date{
+    margin-left: 204px;
+    padding-left: 33px;
+}
+#age{
+    margin-left: 307px;
+    padding-left: 99px;
+}
+#cuh{
+    margin-left: 218px;
+    padding-left: 18px;
+}
+input{
+    margin-bottom: 5px;
+}
+textarea{
+    margin-top: 5px;
+}
+button{
+    margin-top: 10px;
+    margin-left: 20px;
+    background:linear-gradient(to top, #aab38c 20%, #4b54d8 50%, #7779eb 80%);
+}
+label{
+    color:rgba(252, 248, 248, 0.877);
+}
